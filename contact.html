@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Sophie</title>
+</head>
+<body style="background:#74afdc;">
+
+
+<!--CONTACT PAGE-->
+
+<div id = "contact">
+    <h2>Contact Sophie</h2>
+
+    <p>For questions, email <a href = 
+        "724kmp@gmail.com"> Sophie's Master</a>
+    </p>
+
+    <form action = "confirmation.html">
+
+        <div class = "form-row">
+            <label class = "main-label" for="name-id"> Name: </label>
+
+            <input id = "name-id" type = "text" placeholder = "Name">
+        </div>
+
+        <div class = "form-row">
+            <label class = "main-label" for = "email-id">Email:</label>
+
+            <input id = "email-id" type = "email" placeholder = "Put your email here">
+        </div>
+
+        <div class = "form-row">
+            <label class = "main-label">Are you a current a pet owner?</label>
+
+                <label>
+                    <input type = "radio" name = "current-petowner">
+                    Yes
+                </label>
+
+                <label>
+                    <input type = "radio" name = "current-petowner">
+                    No
+                </label>
+        </div>
+
+        <div class = "form-row">
+            <label class = "main-label">
+                Subscribe to:
+            </label>
+
+            <label>
+                <input type = "checkbox">
+                A Day In The Life Of Sophie
+            </label>
+
+            <label>
+                <input type = "checkbox">
+                Pet Health Newsletter
+            </label>
+
+            <label>
+                <input type = "checkbox">
+                How You Can Help
+            </label>
+        </div>
+
+        <div class = "form-row">
+            <label class = "main-label" for = "subject-id"> Quick Survey: Cutest Cat Feature? </label>
+
+            <select id = "subject-id">
+                <option>Noses</option>
+                <option>Ears</option>
+                <option>Tails</option>
+                <option>Whiskers</option>
+                <option>Toe Beans</option>
+            </select>
+        </div>
+
+        <div class = "form-row">
+            <label class = "main-label" for="message-id">Fan Mail:</label>
+
+            <textarea id = "message-id" placeholder = "My dearest Sophie..."></textarea>
+        </div>
+
+        <div class = "form-row">
+            <button id = "submit-btn" type = "submit">Send</button>
+            <button type = "reset">Clear</button>
+        </div>
+
+    </form>
+</div>
+
+
+    
+</body>
+</html>

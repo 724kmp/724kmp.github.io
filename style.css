@@ -1,6 +1,5 @@
 
 
-
 /*FOOTER*/
 body{
     margin:0;
@@ -8,9 +7,9 @@ body{
     }
     
     .footer{
-    background:#000;
+    background:#937fe3;
     padding:30px 0px;
-    font-family: 'Play', sans-serif;
+    font-family: 'Neuton', serif;
     text-align:center;
     }
     
@@ -18,13 +17,13 @@ body{
     width:100%;
     margin:1% 0%;
     padding:0.6% 0%;
-    color:gray;
+    color:#4f4c57;
     font-size:0.8em;
     }
     
     .footer .row a{
     text-decoration:none;
-    color:gray;
+    color:#4f4c57;
     transition:0.5s;
     }
     
@@ -60,3 +59,40 @@ body{
     margin:0% 3%;
     }
     }
+
+
+    /*CONFIRMATION PAGE*/
+
+    body{
+        background:  #937fe3;
+    }
+    
+    #confirmation-words{
+        padding-top: 10px;
+        font-size: 30px;
+        color: #4f4c57;
+        text-align: center;
+    }
+   
+    #confirmation-h2{
+        font-size:32px;
+        color: #52b4ff;
+        text-align: center;
+    }
+
+
+/*CONTACT PAGE*/
+
+    #contact{
+        border: 40px;
+        padding:10px;
+        font-family: 'Neuton', serif;
+        font-size: 20px;
+        color: #4f4c57;
+    }
+
+    h2{
+        color:#8161ff
+    }
+    
+    
