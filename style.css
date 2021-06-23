@@ -173,13 +173,13 @@
         #confirmation-words{
             padding-top: 10px;
             font-size: 30px;
-            color: #4f4c57;
+            color: #D4B2D8;
             text-align: center;
         }
     
         #confirmation-h2{
             font-size:32px;
-            color: #52b4ff;
+            color: ##4f4c57;
             text-align: center;
         }
 /*END CONFITMATION PAGE*/
@@ -196,7 +196,7 @@
         }
 
         h2{
-            color:#8161ff
+            color: ##4c4b57;
         }
 
 /*END CONTACT PAGE*/
