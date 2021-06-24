@@ -67,21 +67,21 @@
         float: left;
     }
     section{
-        background-color: #A88FAC;
+        background-color: #D4B2D8;
         width: 500px;
-        height: 300px;
+        height: 550px;
         float: left;
         text-align: center;
     }
     article{
         background-color: #957E96;
         width: 500px;
-        height: 300px;
+        height: 500px;
         float: left;
         text-align:center;
     }
     aside{
-        height: 600px;
+        height: 1050px;
         width: 400px;
         float: left;
         background-color: #705D70;
@@ -200,3 +200,7 @@
         }
 
 /*END CONTACT PAGE*/
+
+img{
+    width: 85%;
+}
